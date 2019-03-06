@@ -13,8 +13,8 @@ myImage.onclick = function() {
   if (mySrc === 'images/honey-muffin-2.jpg') {
     myImage.setAttribute('src', 'images/black-capped-conure.png');
   }
-  if (mySrc === 'images/muffin-top.jpg') {
-    myImage.setAttribute('src', 'images/black-capped-conure.png');
+  if (mySrc === 'images/black-capped-conure.png') {
+    myImage.setAttribute('src', 'images/honey-muffin-2.jpg');
   }
 }
 
