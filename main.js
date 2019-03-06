@@ -11,9 +11,9 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
   if (mySrc === 'honey-muffin-2.jpg') {
-    myImage.setAttribute('src', 'honey-muffin.jpeg');
+    myImage.setAttribute('src', 'pencil.jpeg');
   }
-  if (mySrc === 'honey-muffin.jpeg') {
+  if (mySrc === 'pencil.jpeg') {
     myImage.setAttribute('src', 'honey-muffin-2.jpg');
   }
 }
