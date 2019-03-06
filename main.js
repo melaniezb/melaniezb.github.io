@@ -9,11 +9,10 @@ myHeading.textContent = 'Hello, world!';
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
-  var mySrc = myImage.getAttribute('src');
-  if (mySrc === 'honey-muffin-2.jpg') {
+  if (myImage.getAttribute('src') === 'honey-muffin-2.jpg') {
     myImage.setAttribute('src', 'pencil.jpeg');
   }
-  if (mySrc === 'pencil.jpeg') {
+  if (myImage.getAttribute('src') === 'pencil.jpeg') {
     myImage.setAttribute('src', 'honey-muffin-2.jpg');
   }
 }
