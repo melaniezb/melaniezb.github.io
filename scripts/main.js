@@ -11,10 +11,10 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
   if (mySrc === 'images/honey-muffin-2.jpg') {
-    myImage.setAttribute('src', 'images/muffin-top.jpg');
+    myImage.setAttribute('src', 'images/pencil.jpeg');
   }
   if (mySrc === 'images/muffin-top.jpg') {
-    myImage.setAttribute('src', 'images/honey-muffin-2.jpg');
+    myImage.setAttribute('src', 'images/pencil.jpeg');
   }
 }
 
